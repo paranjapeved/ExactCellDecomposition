@@ -484,7 +484,6 @@ def main():
                             trapezium_edges.append([row,poi_edge[index_of_event][0]])
                         else:
                             trapezium_edges.append(([row,poi_edge[index_of_event-1][0]]))
-    print(trapezium_edges)
     for edge in trapezium_edges:
         for point in edge:
             if(math.ceil(point[0])-point[0] < 0.1):
