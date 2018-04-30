@@ -8,6 +8,19 @@
 
 <img src="Images/Basic.png" alt="Markdown Monster" style="float: left; margin-right: 10px;" />
 
+## Cool or Meh?
+#### I tried making the algorithm as robust as possible and I did to a good extent. I will leave it to the readers after reading this blog if they think that the project is cool. 
+#### Lets take a look at a comparitively easy start and goal configurations. 
+<img src="Images/Concave2.png" alt="Markdown Monster" style="float: left; margin-right: 10px;" />
+
+#### The green lines are the trapezium edges, the blue lines make up the connectivity graph and the red lines connect the start and goal configurations through the connectivity graph which is taken care by the Dijkstra's algorithm. So, the left end of the red lines is the start and right end is the goal (these can be adjusted which is explained later). Clicking the colored button renders the respective colored graphics, cool right?
+#### Fairly easy right?. Lets step it up a notch. Lets see if the algorithm can find a path if we add a point in the concave region of the obstacle.
+<img src="Images/Concave.png" alt="Markdown Monster" style="float: left; margin-right: 10px;" />
+#### It does! But is it robust enough if we add more obstacles?
+<img src="Images/Cpmplex2.png" alt="Markdown Monster" style="float: left; margin-right: 10px;" />
+<img src="Images/Complex1.png" alt="Markdown Monster" style="float: left; margin-right: 10px;" />
+#### The algorithm passed all the obstacles and transferred the robot in a collision free manner through the environment. Cool or meh?
+
 ## Execution
 #### These trapezoids are constructed by sweeping a vertical line from the minimum x to the maximum x coordinate of the workspace. Whenever the sweep line reaches a vertex (outer boundary vertex or an obstacle vertex), the points of intersection of the line with the all the edges of the environment are found out. This is done with the help of computational geometry algorithm for finding out the point of intersection of a line. The format of the line for this purpose has been tweaked into a homogeneous slope intercept format as follows:
 
