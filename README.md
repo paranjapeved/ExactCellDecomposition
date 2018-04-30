@@ -6,6 +6,6 @@
 ## Introduction
 ### Exact Cell Decomposition divides the workspace into multiple connected units (cells) which are trapezoidal in shape. 
 
-![](https://github.com/paranjapeved/ExactCellDecomposition/blob/master/Basic.png "Logo Title Text 1")
+![](https://github.com/paranjapeved/ExactCellDecomposition/blob/master/Images/Basic.png)
 
 
