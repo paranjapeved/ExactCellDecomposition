@@ -1,3 +1,1 @@
-# Exact Cell Decomposition
-# A Robot Motion Planning Porject 
-# By- Ved Paranjape
+# Exact Cell DecompositionA Robot Motion Planning Project By: Ved Paranjape
