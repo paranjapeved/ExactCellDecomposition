@@ -1,2 +1,2 @@
-# A Robot Motion Planning Project 
+A Robot Motion Planning Project 
 By: Ved Paranjape
