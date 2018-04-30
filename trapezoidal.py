@@ -138,7 +138,6 @@ def do_edge_equation(edge):
     edge_equations[2] = c
     return edge_equations
 
-# Method to 
 def on_segment(pi,pj,pk):
     if((min(pi[0],pj[0])<=pk[0] and pk[0]<=max(pi[0],pj[0])) and  (min(pi[1],pj[1])<=pk[1] and pk[1]<=max(pi[1],pj[1]))):
         return True
@@ -196,7 +195,6 @@ def bubbleSort(nlist):
 def euclidean(a,b):
     return np.sqrt(np.square(a[0] - b[0]) + np.square(a[1] - b[1]))
 
-#
 def text_objects(text,font):
     textSurface = font.render(text,True,BLACK)
     return (textSurface,textSurface.get_rect())
