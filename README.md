@@ -6,7 +6,9 @@
 ## Introduction
 #### Exact Cell Decomposition divides the workspace into multiple connected units (cells) which are trapezoidal in shape as shown in the following figure. 
 
-![](https://github.com/paranjapeved/ExactCellDecomposition/blob/master/Images/Basic.png)
+<img src="https://github.com/paranjapeved/ExactCellDecomposition/blob/master/Images/Basic.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 ## Execution
 #### These trapezoids are constructed by sweeping a vertical line from the minimum x to the maximum x coordinate of the workspace. Whenever the sweep line reaches a vertex (outer boundary vertex or an obstacle vertex), the points of intersection of the line with the all the edges of the environment are found out. This is done with the help of computational geometry algorithm for finding out the point of intersection of a line. The format of the line for this purpose has been tweaked into a homogeneous slope intercept format as follows:
