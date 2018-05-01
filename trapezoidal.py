@@ -62,7 +62,7 @@ def calculate_path(graph, initial):
 
     return visited, path
 
-# Finding shortest oath from graph
+# Wrapper function for calculate_path
 def shortest_path(graph, origin, destination,ret_dist):
     visited, paths = calculate_path(graph, origin)
     full_path = deque()
