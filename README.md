@@ -34,9 +34,9 @@
 ## Structure
 #### The code consists of 3 classes: Environment, Obstacle and constructGraph. The Environment creates the outer boundary of the workspace and the Obstacle class creates the obstacles. To edit the environment coordinates, please make changes to line 396 of the code and for changing the coordinates of obstacles, make changes to lines 399 onwards (Follow instructions written in the code). The constructGraph function creates a graph for running the Dijkstra's algorithm on the connectivity graph.
 #### The following functions were used:
-#### calculate_graph(): 
-#### shortest_path():
-#### do_edge_equation():Method to convert points to a homogeneous format of edges which is: [slope,-1,y-intercept] for computation of midpoint; takes edge as input and outputs the homogeneous format of the edge
+#### calculate_graph(): Calculates the shortest path with Dijkstra's
+#### shortest_path(): Wrapper function to calculate_graph()
+#### do_edge_equation(): Method to convert points to a homogeneous format of edges which is: [slope,-1,y-intercept] for computation of midpoint: takes edge as input and outputs the homogeneous format of the edge
 #### on_segment(): Takes a point and an edge as input; returns True if the point lies on the edge; else False
 #### cross_product(): Gives the cross product 
 #### segments_intersect(): Takes the endpoints of two segments as input and returns True if they intersect in space, else False
