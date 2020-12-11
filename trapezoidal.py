@@ -1,4 +1,4 @@
-#Author Ved
+# Author: Ved Paranjape
 
 import numpy as np
 import math
